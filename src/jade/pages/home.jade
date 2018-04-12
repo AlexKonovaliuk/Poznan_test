@@ -1,0 +1,143 @@
+extends ../layouts/base
+
+
+block page
+    main.home
+        section.banner
+            .banner-title
+                h2 Visit Poz
+                    span nAN
+            .banner-text
+                p a city on tde
+                    span Warta
+                    |river in west-central
+                    span Poland
+                    |, tde region called
+                    span Greater Poland.
+            .banner-person.row
+                .banner-person-box.col-sm-3
+                    .banner-person-box-text
+                        p I was in Poznan once.tde architecture is really awesome.
+                        span Joe Wisdom, architect
+                    .banner-person-box-photo
+                        img(src="img/person01.png")
+                .banner-person-box.col-sm-3
+                    .banner-person-box-text
+                        p I was lost in Poznan for 3 days. I was terrified.
+                        span Little Box, child
+                    .banner-person-box-photo
+                        img(src="img/person02.png")
+                .banner-person-box.col-sm-3
+                    .banner-person-box-text
+                        p People used to look at me now tdey don’t see me.
+                        span Eva Doe, exmodel
+                    .banner-person-box-photo
+                        img(src="img/person03.png")
+                .banner-person-box.col-sm-3
+                    .banner-person-box-text
+                        p I have a lot of penfriends in Poznań. I like writting to tdem and ...
+                        span Emma Smitd, child
+                    .banner-person-box-photo
+                        img(src="img/person04.png")
+        section.content.container
+            .row
+                .content-left_col.col-sm-3
+                    .content-left_col-box
+                        h4.h22 ABOUT AUtdOR
+                        p.gray-text-10px
+                            span John Doe&nbsp;
+                            | - lacus vel augue laoreet rutrum faucibus dolor auctor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta.
+                    .content-left_col-box
+                        h4.h22 RELATED POSTS
+                        .content-left_col-box-elem.row
+                            .col-sm-4
+                                img(src="img/image-post-1.png")
+                            .col-sm-8
+                                p POZNAN AT NIGHT
+                                span 10 Comments
+                        .content-left_col-box-elem.row
+                            .col-sm-4
+                                img(src="img/image-post-2.png")
+                            .col-sm-8
+                                p PEOPLE TO MEET
+                                span 21 Comments
+                        .content-left_col-box-elem.row
+                            .col-sm-4
+                                img(src="img/image-post-3.png")
+                            .col-sm-8
+                                p VISIT OUR OFFICE
+                                span 17 Comments
+                    .content-left_col-box
+                        h4.h22 CURRENCY
+                        table
+                            thead
+                                tr
+                                    td Date
+                                    td Value
+                                    td Status
+                                    td Diff
+                            tbody
+                                tr
+                                    td 22.1
+                                    td 459.5
+                                    td
+                                        img(src="img/arrow-green.png")
+                                    td +1.0
+                                tr
+                                    td 21.1
+                                    td 449.5
+                                    td
+                                        img(src="img/arrow-red.png")
+                                    td -2.3
+                                tr
+                                    td 20.1
+                                    td 450.8
+                                    td
+                                        img(src="img/arrow-green.png")
+                                    td +8.0
+                .content-right_col.col-sm-9
+                    .content-right_col-box1
+                        h3.h32 WHY SHOULD YOU COME TO POZNAN
+                        .content-right_col-box1-text
+                            p.gray-text-10px Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio  em nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec  ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Donec  ullamcorper nulla non metus auctor fringilla...
+                            .content-right_col-box1-button
+                                a(href="#") read more
+                            .content-right_col-box1-lac
+                                .content-right_col-box1-lac-like
+                                    span 10 likes
+                                .content-right_col-box1-lac-comments
+                                    span 22 comments
+                    .content-right_col-box2
+                        .content-right_col-box2-left.content-right_col-box2-elem
+                            h4.h22 NEW ATTRACTIONS
+                            p Posted by&nbsp;
+                                span John Doe&nbsp;
+                                | on&nbsp;
+                                span 10 Nov 2013
+                            p.gray-text-10px Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis.
+                            a(href="#") more...
+                            .like-and-comments
+                                .like
+                                    span 12
+                                .comments
+                                    span 34
+                        .content-right_col-box2-right.content-right_col-box2-elem
+                            h4.h22.marnone LET’S MEET ON OLD MARKET SQUARE
+                            h4.h22 IT WILL BE FUN
+                            p Posted by&nbsp;
+                                span John Doe&nbsp;
+                                | on&nbsp;
+                                span 10 Nov 2013
+                            p.gray-text-10px Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis.eget lacinia...
+                            a(href="#") more...
+                            .like-and-comments
+                                .like
+                                    span 56
+                                .comments
+                                    span 55
+                    .content-right_col-box3
+                        p your ad here
+        section.map
+            .map-title.container
+                h2.h32 WHERE CAN I FIND MORE INFORMATION
+            .map-google#map
